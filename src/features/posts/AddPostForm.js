@@ -4,7 +4,6 @@ import { nanoid } from '@reduxjs/toolkit'
 import { postAdded } from './postsSlice'
 
 export const AddPostForm = () => {
-  console.log(postAdded);
   const [title, setTitle] = useState('')
   const [content, setContent] = useState('')
 
